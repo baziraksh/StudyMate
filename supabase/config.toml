@@ -1,0 +1,22 @@
+project_id = "lhlfdefjpmkoluwxqmxj"
+
+[functions.upload-resource]
+verify_jwt = true
+
+[functions.resources]
+verify_jwt = false
+
+[functions.purchase]
+verify_jwt = true
+
+[functions.my-purchases]
+verify_jwt = true
+
+[functions.wishlist]
+verify_jwt = true
+
+[functions.reviews]
+verify_jwt = false
+
+[functions.dashboard]
+verify_jwt = true
